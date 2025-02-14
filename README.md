@@ -1,0 +1,1 @@
+This example demonstrates a common issue in Lua where uninitialized variables or nil values are passed to a function. The function foo() handles nil values gracefully, however, using an uninitialized variable 'a' in the function call leads to runtime error.  The solution shows how to properly initialize variables or check for nil values to prevent errors.
